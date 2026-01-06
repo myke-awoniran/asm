@@ -9,7 +9,7 @@ struct ThreadContext {
     rsp: u64,
 }
 
-fn hello() {
+fn hello() -> ! {
     println!("Waking up a new stack!");
     loop {}
 }
