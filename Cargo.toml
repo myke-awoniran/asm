@@ -1,0 +1,7 @@
+[package]
+name = "asm-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+target = "2.1.0"
